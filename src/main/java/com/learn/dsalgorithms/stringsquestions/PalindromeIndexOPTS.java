@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author prajosh
+ * @author Uthiraraj Saminathan
  *
  */
 public class PalindromeIndexOPTS {

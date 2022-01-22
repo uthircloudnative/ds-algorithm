@@ -17,7 +17,7 @@ public class ArrayImplementation {
 
 	   public static void main(String[] args){
 
-	   ArrayImplExample arrExamp = new ArrayImplExample(5);
+		   ArrayImplementation arrExamp = new ArrayImplementation(5);
 	   
 	   int[] arr = new int[capacity];
 	   
