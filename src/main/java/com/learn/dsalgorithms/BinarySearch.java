@@ -3,6 +3,8 @@
  */
 package com.learn.dsalgorithms;
 
+import java.util.Arrays;
+
 /**
  * @author Uthiraraj Saminathan
  *
@@ -21,7 +23,7 @@ public class BinarySearch {
 		   int end   = arr.length-1;
 		   int searchVal = 11;
 		   
-		   binarySearchRecursive(arr,searchVal,start,end);
+		   //binarySearchRecursive(arr,searchVal,start,end);
 		   
 		   int midIndex = (start+end)/2;
 		   
