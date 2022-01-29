@@ -34,3 +34,27 @@
   |Delete           | at the beginning we need to move all other   |                                                             |
   |                 | items.O(1)                                   |                                                             |
   |                 |                                              |                                                             |
+
+
+# Algorithms
+
+## Recursion
+
+  Recursion is calling a function by itself until a certain condtion (Base Case) is met. This technicque is really helpful to keep track of entire stack of
+  various function calls. This technique will be used in Divde and Conquere Algorithm to solove some problems for which we can't find a straigt forward solutions.
+  
+  Ex. To find a total of Array of Integers we can use Divid and Conquere Algorithm using Recursive functions.
+  ```
+      Arr --> {4,6,9,8}
+      
+      We can find total of this elements using a normal loop easily. But in case of D&C algo we have to
+      split this problem into smaller parts and execute a recursive function on it.
+      
+      Any recursive function 2 possible cases 1. Base Case 2. Recursive Case.
+      
+      Base Case is logic in which the function call stop/return a result. In this case when given array is empty or only 1 element
+      we can easily say its total. So this is Base case for this scenario.
+      
+      Recursive Case - Recursive case is when a fucntion will call itself multiple times. When Array length is more than one
+      we have to recursively call that function to identify its total.
+  ```
