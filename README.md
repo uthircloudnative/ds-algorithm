@@ -58,3 +58,39 @@
       Recursive Case - Recursive case is when a fucntion will call itself multiple times. When Array length is more than one
       we have to recursively call that function to identify its total.
   ```
+## Graph
+
+  Graph consist of Nodes and Edges. 
+     
+     - A Node in graph is data represented by a circle.
+     - Edge is connection between two nodes. Represented by arrow connecting two nodes.
+     - 2 types of graphs 
+       - Directed Graph (One directional --> Edge/Arrow points to one direction)
+       - BiDirectional Graph/No directional.
+       
+### Directed Graph
+
+     -  In a directed graph given node can be travel only one direction, in the direction of Arrow pointing.
+     -  In a graph each node and its neighbours are represented as a Map key value pairs.
+     -  Given node value will be key its neighbours will be values represented in Array or List.
+     -  If a given node don't have any neighbours (no edge pointing to another node) than still it will be represented with its key and empty list.
+     
+### Undirected Graph
+
+     - In a Undirected graph node can have bidirectional traversel.
+     - Connected two nodes will traverse back and forth vise versa.
+     
+### Breath First Search (Traversal)
+
+     - In BFS given nodes all adjesent nodes are traversed/explored.
+     - It uses Stack implementation.(LIFO)
+     - There is a possibility not all nodes will be explored in this traversel.
+     
+### Depth First Search (Traversal)
+
+     - In DFS all the child nodes of a given node is traversed/explored before taking on another node.
+     - It uses Queue implementation.(FIFO)
+     - All nodes in graph will be traversed.
+     
+     
+           
