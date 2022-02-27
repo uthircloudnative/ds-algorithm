@@ -23,7 +23,7 @@ public class FactorialRecursive {
 	  int total = 0;
 	   while(n>1){
 	     if(total == 0)
-	       total = n*(n-1);
+	       total = n*(n-1);	
 	    else
 	       total = total * (n-1);
 	       
